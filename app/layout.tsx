@@ -1,8 +1,8 @@
 import '@openassistantgpt/ui/dist/index.css';
 
-import { Archivo } from 'next/font/google';
+import { Ubuntu } from 'next/font/google';
 
-const inter = Archivo({ subsets: ['latin'] });
+const inter = Ubuntu({ subsets: ['latin'] });
 
 export const metadata = {
   title: 'Texas Law Advisor',
