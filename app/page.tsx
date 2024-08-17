@@ -104,7 +104,7 @@ export default function ChatPage() {
             What crimes do not have a statute of limitation in Texas?
           </Button>
         ),
-        count > 1 && <SupportInquiry key="5" />,
+        
       ]}
     />
   );
