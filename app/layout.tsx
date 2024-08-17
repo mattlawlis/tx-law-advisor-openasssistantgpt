@@ -1,12 +1,12 @@
 import '@openassistantgpt/ui/dist/index.css';
 
-import { Inter } from 'next/font/google';
+import { Archivo } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] });
+const inter = Archivo({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'OpenAssistantGPT SDK Example',
-  description: 'Example of using OpenAssistantGPT SDK in a Next.js website',
+  title: 'Texas Law Advisor',
+  description: 'Texas Law Advisor',
 };
 
 export default function RootLayout({
