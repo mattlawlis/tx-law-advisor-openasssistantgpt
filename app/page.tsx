@@ -13,33 +13,33 @@ export default function ChatPage() {
     id: '12345',
     name: 'OpenAssistantGPT',
 
-    chatTitle: 'Chat with OpenAssistantGPT',
+    chatTitle: '',
     welcomeMessage:
-      "Welcome to OpenAssistantGPT! 🚀 I'm your AI assistant, crafted using this platform. How may I assist you today?",
-    chatMessagePlaceHolder: 'Ask us any question...',
+      "Hello! I'm your dedicated assistant for Texas State Law. Whether you need guidance on specific statutes, help drafting legal documents, or insights into local ordinances, I'm here to provide accurate and detailed assistance. How may I help you?",
+    chatMessagePlaceHolder: 'Type a message...',
 
     rightToLeftLanguage: false,
 
     bubbleColor: 'linear-gradient(to top left, #003366, #336699)',
     bubbleTextColor: '#FFFFFF',
 
-    chatHeaderBackgroundColor: '#FFFFFF',
-    chatHeaderTextColor: '#52525b',
+    chatHeaderBackgroundColor: '#c01d33',
+    chatHeaderTextColor: '#ffffff',
 
     chatbotReplyBackgroundColor: '#e4e4e7',
     chatbotReplyTextColor: '#000000',
 
-    userReplyBackgroundColor: '#e4e4e7',
-    userReplyTextColor: '#000000',
+    userReplyBackgroundColor: '#002868',
+    userReplyTextColor: '#ffffff',
 
     chatbotLogoURL:
-      'https://gwetfkan2dovfoiz.public.blob.vercel-storage.com/search-8jZhOvOBPxuTmohrup5TPvSzrjsyog.png',
+      'https://txlawadvisor.com/wp-content/uploads/2024/06/favicon.png',
     chatInputStyle: 'default',
 
     chatHistoryEnabled: true,
     chatFileAttachementEnabled: true,
 
-    displayFooterText: true,
+    displayFooterText: false,
     footerLink: 'https://www.openassistantgpt.io',
     footerTextName: 'OpenAssistantGPT',
   };
@@ -66,10 +66,10 @@ export default function ChatPage() {
             className="w-full bg-white"
             variant="outline"
             onClick={() =>
-              setDefaultMessage('How many chatbot can I created on free plan?')
+              setDefaultMessage('Will you assist me with drafting a Motion for Summary Judgment?')
             }
           >
-            How many chatbot can I created on free plan?
+            Will you assist me with drafting a Motion for Summary Judgment?
           </Button>
         ),
         count == 0 && (
@@ -77,9 +77,9 @@ export default function ChatPage() {
             key="2"
             className="w-full bg-white"
             variant="outline"
-            onClick={() => setDefaultMessage('How to create a chatbot?')}
+            onClick={() => setDefaultMessage('How do I write an employment contract for my Chief Financial Officer?')}
           >
-            How to create a chatbot?
+            How do I write an employment contract for my Chief Financial Officer?
           </Button>
         ),
         count == 0 && (
@@ -88,10 +88,10 @@ export default function ChatPage() {
             className="w-full bg-white"
             variant="outline"
             onClick={() =>
-              setDefaultMessage('How to integrate chatbot in website?')
+              setDefaultMessage('Please explain homestead laws in Texas.')
             }
           >
-            How to integrate chatbot in website?
+            Please explain homestead laws in Texas.
           </Button>
         ),
         count == 0 && (
@@ -99,9 +99,9 @@ export default function ChatPage() {
             key="4"
             className="w-full bg-white"
             variant="outline"
-            onClick={() => setDefaultMessage('What is a SDK?')}
+            onClick={() => setDefaultMessage('What crimes do not have a statute of limitation in Texas?')}
           >
-            What is a SDK?
+            What crimes do not have a statute of limitation in Texas?
           </Button>
         ),
         count > 1 && <SupportInquiry key="5" />,
