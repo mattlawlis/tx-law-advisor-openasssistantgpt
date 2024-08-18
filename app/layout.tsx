@@ -9,7 +9,7 @@ const myFont = localFont({
 })
 
 export const metadata = {
-  title: 'George D. Reyes',
+  title: 'TX Law Advisor',
   description: 'Chatbot',
 };
 
