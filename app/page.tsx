@@ -57,7 +57,7 @@ export default function ChatPage() {
       chatbot={chatbot}
       path="/api/chat/assistant"
       defaultMessage={defaultMessage}
-      withExitX={true}
+      withExitX={false}
       onMessagesChange={handleMessagesChange}
       extensions={[
         count == 0 && (
