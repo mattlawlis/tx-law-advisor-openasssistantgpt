@@ -23,6 +23,8 @@ export default function ChatPage() {
     bubbleColor: 'linear-gradient(to top left, #003366, #336699)',
     bubbleTextColor: '#FFFFFF',
 
+    fontSize: '16px', 
+
     chatHeaderBackgroundColor: '#c01d33',
     chatHeaderTextColor: '#ffffff',
 
