@@ -1,6 +1,6 @@
 # OpenAssistantGPT SDK, Next.js, and OpenAI Chat Example
 
-This example shows how to use the [OpenAssistantGPT SDK](https://openassistantgpt.io/), [Vercel AI SDK](https://sdk.vercel.ai/docs), [Next.js](https://nextjs.org/) and [OpenAI](https://openai.com) to create a ChatGPT-like AI-powered streaming chat bot.
+This example shows how to use the [OpenAssistantGPT SDK](https://openassistantgpt.io/), [Vercel AI SDK](https://sdk.vercel.ai/docs), [Next.js](https://nextjs.org/) and [OpenAI](https://openai.com) to create a AI-powered streaming chat bot.
 
 ## Deploy your own
 
