@@ -1,6 +1,7 @@
 import '@openassistantgpt/ui/dist/index.css';
 
 import localFont from 'next/font/local'
+import { Html, Head, Main, NextScript } from 'next/document';
  
 // Font files can be colocated inside of `app`
 const myFont = localFont({
@@ -19,8 +20,24 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={myFont.className}>
-      <body>{children}</body>
-    </html>
+    <Html lang="en" className={myFont.className}>
+      <Head>
+        <script>
+          {`
+            function sendHeight() {
+              var height = document.documentElement.scrollHeight;
+              parent.postMessage({ iframeHeight: height }, '*');
+            }
+            window.addEventListener('load', sendHeight);
+            window.addEventListener('resize', sendHeight);
+          `}
+        </script>
+      </Head>
+      <body>
+        <Main />
+        <NextScript />
+        {children}
+      </body>
+    </Html>
   );
 }
