@@ -35,7 +35,7 @@ export default function ChatPage() {
     userReplyTextColor: '#ffffff',
 
     chatbotLogoURL:
-      'https://txlawadvisor.com/wp-content/uploads/2024/06/favicon.png',
+      'https://lawlessmedia.net/state-of-tx-law-advisor-favicon.png',
     chatInputStyle: 'default',
 
     chatHistoryEnabled: true,
