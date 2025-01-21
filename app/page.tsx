@@ -35,7 +35,7 @@ export default function ChatPage() {
     userReplyTextColor: '#ffffff',
 
     chatbotLogoURL:
-      'https://lawlessmedia.net/state-of-tx-law-advisor-favicon.png',
+      'https://futuis.com/images/texas.png',
     chatInputStyle: 'default',
 
     chatHistoryEnabled: true,
