@@ -35,7 +35,7 @@ export default function ChatPage() {
     userReplyTextColor: '#ffffff',
 
     chatbotLogoURL:
-      'https://futuis.com/images/texas.png',
+      'favicon.ico',
     chatInputStyle: 'default',
 
     chatHistoryEnabled: true,
