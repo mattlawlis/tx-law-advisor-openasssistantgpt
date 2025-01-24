@@ -11,7 +11,7 @@ export default function ChatPage() {
 
   const chatbot: ChatbotConfig = {
     id: '12345',
-    name: 'OpenAssistantGPT',
+    name: 'TexasLawAdvisor',
 
     chatTitle: '',
     welcomeMessage:
@@ -34,8 +34,8 @@ export default function ChatPage() {
     userReplyBackgroundColor: '#002868',
     userReplyTextColor: '#ffffff',
 
-    chatbotLogoURL:
-      'https://futuis.com/images/texas.png',
+     chatbotLogoURL:
+      'favicon.ico',
     chatInputStyle: 'default',
 
     chatHistoryEnabled: true,
