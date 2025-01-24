@@ -23,8 +23,6 @@ export default function ChatPage() {
     bubbleColor: 'linear-gradient(to top left, #003366, #336699)',
     bubbleTextColor: '#FFFFFF',
 
-    fontSize: '14px', 
-
     chatHeaderBackgroundColor: '#c01d33',
     chatHeaderTextColor: '#ffffff',
 
@@ -35,7 +33,7 @@ export default function ChatPage() {
     userReplyTextColor: '#ffffff',
 
     chatbotLogoURL:
-      'https://futuis.com/images/texas.png',
+      'favicon.ico',
     chatInputStyle: 'default',
 
     chatHistoryEnabled: true,
@@ -44,6 +42,12 @@ export default function ChatPage() {
     displayFooterText: false,
     footerLink: 'https://www.openassistantgpt.io',
     footerTextName: 'OpenAssistantGPT',
+
+    
+    fontSize: '14px',
+
+    messageSourceText: '',
+    withChatMessageIcon: true,
   };
 
   useEffect(() => {
