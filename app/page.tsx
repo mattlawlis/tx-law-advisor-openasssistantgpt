@@ -44,6 +44,12 @@ export default function ChatPage() {
     displayFooterText: false,
     footerLink: 'https://www.openassistantgpt.io',
     footerTextName: 'OpenAssistantGPT',
+
+    
+    fontSize: '14px',
+
+    messageSourceText: '',
+    withChatMessageIcon: true,
   };
 
   useEffect(() => {
